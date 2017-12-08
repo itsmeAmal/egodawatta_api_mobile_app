@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cazzendra.official.apiv10.MainActivity">
+
+    <EditText
+        android:id="@+id/etMemberId"
+        android:labelFor="@+id/etMemberId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80sp"
+        android:layout_marginTop="100sp"
+        android:ems="10"
+        android:hint="@string/member_id"
+        android:background="@drawable/shape"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <EditText
+        android:id="@+id/etMemberName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80sp"
+        android:layout_marginTop="150sp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:labelFor="@+id/etMemberName" />
+
+    <EditText
+        android:id="@+id/etMemberContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80sp"
+        android:layout_marginTop="200sp"
+        android:background="@drawable/shape"
+        android:ems="10"
+        android:hint="@string/contact"
+        android:inputType="phone"
+        android:labelFor="@+id/etMemberContact" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/etMemberContact"
+        android:layout_below="@+id/etMemberContact"
+        android:layout_marginTop="60dp"
+        android:text="@string/send_updates" />
+
+
+</RelativeLayout>

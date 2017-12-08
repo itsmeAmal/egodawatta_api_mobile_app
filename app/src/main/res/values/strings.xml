@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Egodawatta Gang Version 1.0</string>
+    <string name="name">Name</string>
+    <string name="member_id">Member ID</string>
+    <string name="contact">Contact</string>
+    <string name="send_updates">Send Updates</string>
+</resources>
