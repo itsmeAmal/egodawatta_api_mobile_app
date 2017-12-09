@@ -53,5 +53,28 @@
         android:layout_marginTop="60dp"
         android:text="@string/send_updates" />
 
+    <Button
+        android:id="@+id/btnAddMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etMemberContact"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_below="@+id/checkBox"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/add_member"
+        tools:text="Add member " />
+
+    <EditText
+        android:id="@+id/calender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_below="@+id/etMemberContact"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:background="@drawable/shape"
+        android:hint="@string/d_o_b"
+        android:inputType="textPersonName" />
 
 </RelativeLayout>
